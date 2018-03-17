@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.telkomuniversity.student.ayasnindya.raras_1202150255_modul4.MainMenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="MAIN MENU"
+        android:textSize="18dp"
+        android:id="@+id/mainMenu" />
+
+    <Button
+        android:id="@+id/listNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mainMenu"
+        android:layout_alignStart="@+id/mainMenu"
+        android:layout_below="@+id/mainMenu"
+        android:layout_marginTop="60dp"
+        android:onClick="tampilNama"
+        android:text="List Nama" />
+
+    <Button
+        android:id="@+id/cariGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listNama"
+        android:layout_centerHorizontal="true"
+        android:onClick="cariGambar"
+        android:text="Cari Gambar" />
+
+</RelativeLayout>
